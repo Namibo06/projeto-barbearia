@@ -1,0 +1,124 @@
+@keyframes rotateArrowLeft {
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+section.localization{
+    background-color: #49403B;
+    color: #e6e6e6;
+    padding: 120px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.localization__introduction{
+    display: flex;
+    flex-direction: column;
+}
+
+.localization__title,.localization__phrases{
+    padding-bottom: 30px;
+}
+
+.localization__title h1{
+    font-size: 40px;
+    font-weight: 400;
+    width: 440px;
+}
+
+.localization__phrases p{
+    width: 400px;
+}
+
+.localization__button-whatsapp button{
+    padding: 14px 12px;
+    border-radius: 5px;
+    background-color: #F3AA5D;
+    border: 0;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.localization__button-whatsapp button:hover svg{
+    animation-name: rotateArrowLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+}
+
+.localization__button-whatsapp button:active{
+    position: relative;
+    top: 1px;
+}
+
+.localization__button-whatsapp button svg{
+    margin-left: 20px;
+}
+
+/*maps*/
+.localization__maps{
+    position: relative;
+    left: -30px;
+}
+
+.localization__maps iframe{
+    width: 400px;
+    height: 550px;
+    border-radius: 25px;
+    border: 0;
+}
+
+/*location and contact*/
+.localization__location-and-contact{
+    position: relative;
+    left: -20px;
+}
+
+.localization__location-and-contact .localization__location,.localization__location-and-contact .localization__contact{
+    display: flex;
+    flex-direction: row;
+}
+
+.localization__location div.icon,.localization__contact div.icon{
+    background-color: #e6e6e6;
+    color: rgba(0, 0, 0, 0.973);
+    padding: 10px;
+    border-radius: 15px;
+    width: 70px;
+    height: 70px;
+}
+
+.localization__location div.icon svg,.localization__contact div.icon svg{
+    font-size: 32px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.localization__location div.content,.localization__contact div.content{
+    margin-left: 40px;
+}
+
+.localization__location div.content p,.localization__contact div.content p{
+    padding-top: 15px;
+}
+
+.localization__location{
+    padding-bottom: 90px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.localization__contact{
+    padding-top: 90px;
+    
+}
