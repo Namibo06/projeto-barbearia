@@ -1,5 +1,7 @@
 ### Clonar Projeto
-##### ``git clone https://github.com/Namibo06/projeto-barbearia.git``
+##### 1. Abra o CMD,ou VsCode
+##### 2. Vá até o caminho desejado para ser a pasta do projeto
+##### 3. Rode o comando no terminal ``git clone https://github.com/Namibo06/projeto-barbearia.git``
 
 ----------------------------------------------
 ### Subir projeto
