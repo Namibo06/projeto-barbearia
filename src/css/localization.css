@@ -7,6 +7,24 @@
     }
 }
 
+@keyframes balanceIcon {
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(15deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    75%{
+        transform: rotate(-15deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
 section.localization{
     background-color: #49403B;
     color: #e6e6e6;
@@ -95,14 +113,19 @@ section.localization{
     border-radius: 15px;
     width: 70px;
     height: 70px;
+    text-align: center;
 }
+
+.localization__location div.icon:hover svg,.localization__contact div.icon:hover svg{
+    animation-name: balanceIcon;
+    animation-duration: 0.7s;
+    animation-iteration-count: 2;
+    animation-timing-function: ease-in-out;
+} 
 
 .localization__location div.icon svg,.localization__contact div.icon svg{
     font-size: 32px;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    padding-top: 10px;
 }
 
 .localization__location div.content,.localization__contact div.content{
