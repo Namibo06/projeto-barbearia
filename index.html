@@ -4,8 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - BarbX</title>
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="./public/css/global.css">
     <link rel="stylesheet" href="./public/css/header.css">
+    <link rel="stylesheet" href="./public/css/localization.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js" defer></script>
 </head>
 <body>
     <header>
@@ -86,5 +91,65 @@
             </div><!--header__phrases-->
         </div><!--header__container-->
     </header>
+
+    <main>
+        <section class="localization">
+            <div class="localization__introduction">
+                <div class="localization__title">
+                    <h1>SERVIÇOS ALÉM DAS EXPECTATIVAS</h1>
+                </div><!--localization__title-->
+
+                <div class="localization__phrases">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam dicta voluptas excepturi labore, perspiciatis eius dolorem maxime! Adipisci sed nulla quasi excepturi iure, mollitia quis deserunt, assumenda accusantium esse voluptate?</p>
+                </div><!--localization__phrases-->
+
+                <div class="localization__button-whatsapp">
+                    <button type="button">
+                        Ir ao Whatsapp 
+                        <i class="fa-solid fa-arrow-right"></i> 
+                    </button>
+                    <!--wa.me-->
+                </div><!--localization__button-whatsapp-->
+            </div><!--localization__introduction-->
+
+            <div class="localization__maps">
+                <iframe 
+                    loading="lazy" 
+                    allowfullscreen
+                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAShdP6sUs0mL-nYUGA60B_9J5tRkgKvUI&q=Av. Artêmia Pires Freitas, s/n - Sim, Feira de Santana - BA, 44085-370">
+                </iframe>
+            </div><!--localization__maps-->
+
+            <div class="localization__location-and-contact">
+                <div class="localization__location">
+                    <div class="icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div><!--icon-->
+
+                    <div class="content">
+                        <h1>LOCALIZAÇÃO</h1>
+                        <p>
+                            Av. Artêmia Pires Freitas, s/n - Sim <br>
+                            Feira de Santana - BA, 44085-370
+                        </p>
+                    </div><!--content-->
+                </div><!--localization__location-->
+
+                <div class="localization__contact">
+                    <div class="icon">
+                        <i class="fa-solid fa-phone"></i>
+                    </div><!--icon-->
+
+                    <div class="content">
+                        <h1>(75) 9 9288-9592</h1>
+                        <p>
+                            Segunda - sexta: 09am - 08pm <br>
+                            Sábado: 09am - 6pm
+                        </p>
+                    </div><!--content-->
+                </div><!--localization__contact-->
+            </div><!--localization__location-and-contact-->
+        </section><!--localization-->
+    </main>
 </body>
 </html>
