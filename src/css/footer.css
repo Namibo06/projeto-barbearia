@@ -1,0 +1,112 @@
+footer{
+    padding: 60px 60px 20px 40px;
+    border-top: 3px solid #EFEFEF;
+}
+
+.footer__initial,.footer__links,.footer__final{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer__final{
+    padding-top: 100px;
+}
+
+.footer__primary__title h1{
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
+
+.footer__links div{
+    margin-right: 120px;
+}
+
+.footer__links div:last-child{
+    margin-right: 0;
+}
+
+.footer__links div h2{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.footer__links div ul,.footer__primary__description,.footer__operational p:nth-of-type(1){
+    padding-top: 40px;
+}
+
+.footer__primary__description p:nth-of-type(1),.footer__primary__description p:nth-of-type(2),.footer__primary__description p:nth-of-type(3){
+    margin-bottom: 8px;
+}
+
+.footer__operational p:nth-of-type(1){
+    margin-bottom: 15px;
+}
+
+.footer__operational p:nth-of-type(2){
+    margin-bottom: 25px;
+}
+
+.footer__operational button{
+    padding: 15px;
+    background-color: #F3A85E;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+    letter-spacing: 0.3px;
+}
+
+.footer__operational button:hover{
+    border: 2px solid #F3A85E;
+    background-color: transparent;
+    color: #F3A85E;
+}
+
+.footer__links div li{
+    list-style-type: none;
+    margin-bottom: 12px;
+}
+
+.footer__links div li:last-child{
+    margin-bottom: 0;
+}
+
+.footer__links div a{
+    color: #000000;
+    text-decoration: none;
+    transition: 0.2s ease-in;
+}
+
+.footer__links div a:hover{
+    padding-bottom: 2px;
+    border-bottom: 2px solid #000000;
+}
+
+.footer__socials svg{
+    font-size: 21px;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.footer__socials svg:nth-child(1):hover{
+    color: rgb(0,0,200);
+}
+
+.footer__socials svg:nth-child(2):hover{
+    color: rgb(95, 95, 104);
+}
+
+.footer__socials svg:nth-child(3):hover{
+    color: rgb(226, 19, 99);
+}
+
+.footer__socials svg:nth-child(4):hover{
+    color: rgb(43, 43, 204);
+}
+
+.footer__socials svg:last-child{
+    margin-right: 0;
+}
