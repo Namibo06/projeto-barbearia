@@ -10,9 +10,12 @@
     <link rel="stylesheet" href="/src/css/localization.css">
     <link rel="stylesheet" href="/src/css/services.css">
     <link rel="stylesheet" href="/src/css/employees.css">
+    <link rel="stylesheet" href="/src/css/footer.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js" defer></script>
+
+    <script src="/src/js/yearActual.js" defer></script>
 </head>
 <body>
     <header>
@@ -276,5 +279,70 @@
             </picture><!--employees__galery-->
         </section><!--employees-->
     </main>
+
+    <footer>
+        <div class="footer__initial">
+            <section class="footer__primary">
+                <div class="footer__primary__title">
+                    <h1>BarbX</h1>
+                </div><!--footer__primary__title-->
+
+                <div class="footer__primary__description">
+                    <p>Av. Artêmia Pires Freitas, s/n - Sim, Feira de Santana - BA</p>
+                    <p>(75) 9 9288-9592</p>
+                    <p>atendimento@barbx.com</p>
+                    <p>suporte@barbx.com</p>
+                </div><!--footer__primary__description-->
+            </section><!--footer__primary-->
+
+            <section class="footer__links">
+                <div class="footer__links__menu">
+                    <h2>Menu</h2>
+
+                    <ul>
+                        <li><a href="">Localização</a></li>
+                        <li><a href="">Serviços</a></li>
+                        <li><a href="">Funcionários</a></li>
+                        <li><a href="">Sobre nós</a></li>
+                    </ul>
+                </div><!--footer__links__menu-->
+
+                <div class="footer__links__others">
+                    <h2>Links Rápidos</h2>
+
+                    <ul>
+                        <li><a href="">Subir ao topo</a></li>
+                        <li><a href="">Política de Privacidade</a></li>
+                        <li><a href="">Termos de Uso</a></li>
+                    </ul>
+                </div><!--footer__links__others-->
+
+                <div class="footer__operational">
+                    <h2>Operacional</h2>
+
+                    <p>Segunda - Sexta: 9:00 - 20:00</p>
+                    <p>Sábado: 8:00 - 18:00</p>
+
+                    <button type="button">Reserve agora</button>
+                </div><!--footer__operational-->
+            </section><!--footer__links-->
+        </div><!--footer__initial-->
+
+        <div class="footer__final">
+            <div class="footer__socials">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div><!--footer__socials-->
+
+            <div class="footer__copyright">
+                <p>
+                    Copyright © Direitos Reservados a BarbX 2024 - 
+                    <span id="currentYear"></span>
+                </p>
+            </div><!--footer__copyright-->
+        </div><!--footer__final-->
+    </footer>
 </body>
 </html>
