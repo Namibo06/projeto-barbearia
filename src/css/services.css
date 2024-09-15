@@ -43,7 +43,8 @@ section.services{
 }
 
 .services__content__pagination button{
-    border-radius: 50%;
+    border-radius: 10px;
+    width: 50px;
     border: 2px solid #302f2fdc;
     background-color: transparent;
     padding: 5px 6px;
@@ -51,16 +52,16 @@ section.services{
     position: relative;
     top: -5px;
     cursor: pointer;
+    transition: 0.3s ease-in;
 }
 
 .services__content__pagination button:nth-child(2){
     margin-left: 5px;
-    border: 2px solid #838080ea;
 }
 
 .services__content__pagination button:active{
     position: relative;
-    top: 0.5px;
+    top: 1px;
 }
 
 .services__prices .services__prices__title h1{
