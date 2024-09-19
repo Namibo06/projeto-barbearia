@@ -5,6 +5,7 @@ header{
     height: 800px;
     background-position: center;
     background-size: cover;
+    font-family: "Roboto",Arial, Helvetica, sans-serif;
 }
 
 .header__container{
@@ -95,6 +96,10 @@ header{
     top: 1px;
 }
 
+.header__menu{
+    display: none;
+}
+
 /*forms*/
 .header__form{
     padding: 30px 20px;
@@ -137,7 +142,6 @@ header{
     color: #000000;
     border: 0;
     border-radius: 10px;
-
 }
 
 .header__form form div.camp:nth-of-type(4){
@@ -189,10 +193,234 @@ header{
 
 .header__phrases__right h1{
     font-size: 70px;
-    width: 900px;
+    width: 720px;
+    max-width: 95%;
     position: absolute;
-    right: 20px;
-    bottom: 65px;
+    right: 40px;
+    bottom: 79px;
     font-weight: 400;
     text-align: right;
+}
+
+@media screen and (width < 1200px) {
+    /*phrases*/
+    .header__phrases{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        right: 60px;
+        top: 330px;
+    }
+
+    .header__phrases__left p{
+        width: 400px;
+        padding-left: 0px;
+        margin-left: 190px;
+        position: relative;
+        top: 0px;
+    }
+
+    .header__phrases__right h1{
+        margin-top: 100px;
+        font-size: 50px;
+        width: 530px;
+        position: absolute;
+        right: -20px;
+        bottom: -280px;
+    }
+}
+
+@media screen and (width < 1020px) {
+    .header__top{
+        padding: 30px 20px;
+    }
+    
+    .header__top h1{
+        font-size: 30px;
+        letter-spacing: 0.9px;
+    }
+    
+    .header__top ul{
+        width: 560px;
+        max-width: 98%;
+        height: 63px;
+    }
+    
+    .header__top .header__help-button button{
+        padding: 12px 25px;
+        font-size: 16px;
+        letter-spacing: 0.9px;
+    }   
+}
+
+@media screen and (width < 980px) {
+    /*forms*/
+    .header__form{
+        margin: 75px 0 50px 20px;
+    }
+
+    /*phrases*/
+    .header__phrases{
+        right: 20px;
+    }
+
+    .header__phrases__right h1{
+        margin-top: 100px;
+        font-size: 50px;
+        width: 530px;
+        position: absolute;
+        right: 0px;
+        bottom: -280px;
+    }
+}
+
+@media screen and (width < 880px) {
+    /*forms*/
+    .header__form{
+        margin: 75px 0 0px 20px;
+    }
+
+    /*phrases*/
+    .header__phrases__left p{
+        width: 400px;
+        text-align: justify;
+        padding-left: 60px;
+    }
+
+    .header__phrases__right h1{
+        display: none;
+    }  
+}
+
+@media screen and (width < 860px) {
+    .header__top h1{
+        font-size: 25px;
+        letter-spacing: 1px;
+    }
+    
+    .header__top ul{
+        width: 480px;
+    }
+    
+    .header__top li{
+        margin-right: 30px;
+    }
+    
+    .header__top li button{
+        font-size: 15px;
+    }
+    
+    .header__top li button:hover{
+        padding: 12px 15px;
+    }
+    
+    .header__top .header__help-button button{
+        padding: 12px 15px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (width < 810px) {
+    .header__bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /*forms*/
+    .header__form{
+        margin: 55px 0 0px 0px;
+    }
+
+    /*phrases*/
+    .header__phrases{
+        position: relative;
+        right: 0px;
+        top: 0px;
+    }
+
+    .header__phrases__left p{
+        width: 400px;
+        padding-left: 0px;
+        margin-left: 0px;
+        position: relative;
+        top: 60px;
+    }
+}
+
+@media screen and (width < 720px) {
+    .header__links,.header__help-button{
+        display: none;
+    }
+
+    .header__top ul{
+        border: 0;
+    }
+
+    /*menu bars*/
+    .header__top{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 40px;
+    }
+
+    .header__title h1{
+        font-size: 30px;
+    }
+
+    .header__menu{
+        display: block;
+    }
+
+    .header__menu button{
+        border: 0;
+        background-color: transparent;
+    }
+
+    .header__menu svg{
+        color: #f5f5f5;
+        cursor: pointer;
+        font-size: 23px;
+    }
+
+    .header__menu .menu{
+        display: none;
+        width: 90px;
+        height: 90px;
+        z-index: 999;
+    }
+}
+
+@media screen and (width < 450px) {
+    /*forms*/
+    .header__form{
+        max-width: 95%;
+    }
+
+    .header__form form h1{
+        font-size: 26px;
+        padding-bottom: 22px;
+    }
+
+    .header__form form div.camp:nth-of-type(4) button{
+        font-size: 17px;
+    }
+
+    /*phrases*/
+    .header__phrases__left p{
+        margin: 0 auto;
+        padding: 0 10px;
+        width: 95%;
+    }
+}
+
+@media screen and (width < 305px) {
+    /*forms*/
+    .header__form form h1{
+        font-size: 21px;
+    }
 }
