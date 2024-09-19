@@ -4,6 +4,7 @@ section.services{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    font-family: "Roboto",Arial, Helvetica, sans-serif;
 }
 
 .services__comments{
@@ -93,4 +94,101 @@ section.services{
 
 .services__name__and__price__single h3{
     font-weight: 300;
+}
+
+@media screen and (width < 990px) {
+    section.services{
+        display: flex;
+        align-items: center;
+    }
+
+    .services__comments{
+        max-width: 95%;
+        height: 290px;
+        padding: 30px;
+    }
+    
+    .services__comments__pagination{
+        padding-top: 35px;
+    }
+    
+    .services__prices .services__prices__title h1{
+        font-size: 30px;
+        letter-spacing: 0.5px;
+    }
+    
+    .services_names_and_prices{
+        padding-top: 30px;
+        width: 450px;
+        max-width: 95%;
+    }
+    
+    .services__name__and__price__single{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px 0 10px 0;
+        border-bottom: 1px solid #000000dc;
+    }
+    
+    .services__name__and__price__single:first-child{
+        padding: 0 0 10px 0;
+    }  
+
+    .services__name__and__price__single h3{
+        font-size: 16px;
+    }
+}
+
+@media screen and (width < 910px) {
+    section.services{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .services__comments{
+        margin-top: 100px;
+    }
+
+    .services__prices .services__prices__title h1{
+        padding-left: 10px;
+    }
+
+    .services__prices{
+        max-width: 95%;
+    }
+
+    .services__prices .services_names_and_prices{
+        margin: 0 auto;
+    }
+}
+
+@media screen and (width < 410px) {
+    .services__prices .services__prices__title h1{
+        font-size: 25px;
+    }
+
+    /*comments*/
+    .services__comments{
+        height: 260px;
+        padding: 22px 20px;
+        font-size: 14px;
+    }
+    
+    .services__comments__pagination{
+        padding-top: 30px;
+    }
+
+    .services__content{
+        padding-top: 30px;
+    }
+}
+
+@media screen and (width < 295px) {
+    /*comments*/
+    .services__comments{
+        height: 285px;
+    }
 }
