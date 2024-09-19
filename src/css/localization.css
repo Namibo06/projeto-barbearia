@@ -142,6 +142,453 @@ section.localization{
 }
 
 .localization__contact{
-    padding-top: 90px;
+    padding-top: 90px;   
+}
+
+@media screen and (width < 1220px){
+    .localization__title h1{
+        font-size: 35px;
+        width: 360px;
+    }
+
+    .localization__phrases p{
+        width: 360px;
+    }
+
+    /*maps*/
+    .localization__maps{
+        left: 0;
+    }
+
+    .localization__maps iframe{
+        width: 360px;
+    }
+
+    /*location and contact*/
+    .localization__location-and-contact{
+        left: 0px;
+    }
+
+    .localization__location div.content,.localization__contact div.content{
+        margin-left: 25px;
+    }
+}
+
+@media screen and (width < 1110px){
+    .localization__title h1{
+        font-size: 27px;
+        width: 280px;
+    }
+
+    .localization__phrases p{
+        width: 280px;
+        font-size: 14px;
+    }
+
+    .localization__button-whatsapp button{
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    /*maps*/
+    .localization__maps iframe{
+        width: 280px;
+    }
+
+    /*location and contact*/
+    .localization__location div.icon,.localization__contact div.icon{
+        width: 50px;
+        height: 50px;
+    }
+
+    .localization__location div.icon svg,.localization__contact div.icon svg{
+        font-size: 23px;
+        padding-top: 4px;
+    }
+
+    .localization__location div.content,.localization__contact div.content{
+        margin-left: 20px;
+    }
+
+    .localization__location div.content h1,.localization__contact div.content h1{
+        font-size: 19px;
+    }
     
+    .localization__location div.content p,.localization__contact div.content p{
+        padding-top: 8px;
+    }
+    
+    .localization__location{
+        padding-bottom: 60px;
+    }
+    
+    .localization__contact{
+        padding-top: 60px;
+    }
+}
+
+@media screen and (width < 910px){
+    section.localization{
+        flex-direction: column;
+    }
+
+    .localization__title,.localization__phrases{
+        padding-bottom: 20px;
+        width: 100%;
+        max-width: 95%;
+    }
+
+    .localization__title{
+        margin: 0 auto;
+    }
+    
+    .localization__title h1{
+        font-size: 40px;
+        width: 100%;
+        padding: 0 20px;
+    }
+    
+    .localization__phrases p{
+        width: 80%;
+        text-align: left;
+        font-size: 16px;
+        line-height: 23px;
+        margin: 0 auto;
+    }
+    
+    .localization__button-whatsapp button{
+        padding: 14px 12px;
+        font-size: 16px;
+        position: relative;
+        left: 70%;
+    }
+
+    .localization__button-whatsapp button svg{
+        rotate: 90deg;
+    }
+
+    /*maps*/
+    .localization__maps{
+        padding: 120px 0;
+    }
+
+    .localization__maps iframe{
+        width: 1000px;
+        max-width: 90%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 550px;
+        border-radius: 25px;
+        border: 0;
+    }
+
+    /*location and contact*/
+    .localization__location div.icon,.localization__contact div.icon{
+        padding: 10px;
+        width: 70px;
+        height: 70px;
+    }
+
+    .localization__location div.icon svg,.localization__contact div.icon svg{
+        font-size: 32px;
+        padding-top: 10px;
+    }
+
+    .localization__location div.content,.localization__contact div.content{
+        margin-left: 40px;
+    }
+
+    .localization__location div.content p,.localization__contact div.content p{
+        padding-top: 15px;
+    }
+
+    .localization__location{
+        padding-bottom: 90px;
+    }
+
+    .localization__contact{
+        padding-top: 90px;   
+    }
+}
+
+@media screen and (width < 800px){
+    .localization__title,.localization__phrases{
+        width: 100%;
+    }
+
+
+    .localization__title h1{
+        font-size: 30px;
+        text-align: center;
+        letter-spacing: 0.4px;
+        padding: 0;
+    }
+    
+    .localization__phrases p{
+        padding: 0;
+        width: 100%;
+        max-width: 70%;
+        text-align: left;
+        font-size: 16px;
+        line-height: 23px;
+        margin: 0 auto;
+        position: relative;
+        left: 25px;
+    }
+    
+    .localization__button-whatsapp button{
+        padding: 14px 12px;
+        font-size: 16px;
+        position: relative;
+        left: 63%;
+    }
+
+    /*location and contact*/
+    .localization__location{
+        padding-bottom: 80px;
+    }
+
+    .localization__contact{
+        padding-top: 80px;   
+    }
+}
+
+@media screen and (width < 670px){
+    .localization__phrases p{
+        max-width: 85%;
+        text-align: left;
+        font-size: 16px;
+        line-height: 23px;
+        margin: 0 auto;
+        position: relative;
+        left: 20px;
+    }
+}
+
+@media screen and (width < 585px){
+    .localization__title h1{
+        font-size: 25px;
+        letter-spacing: 0;
+    }
+    
+    .localization__phrases p{
+        max-width: 75%;
+        text-align: justify;
+        font-size: 15px;
+        left: 10px;
+    }
+    
+    .localization__button-whatsapp button{
+        padding: 12px;
+        font-size: 15px;
+        left: 58%;
+    }
+
+    /*maps*/
+    .localization__maps{
+        padding: 100px 0;
+    }
+
+    /*location and contact*/
+    .localization__location{
+        padding-bottom: 70px;
+    }
+
+    .localization__contact{
+        padding-top: 70px;   
+    }
+}
+
+@media screen and (width < 512px){
+    .localization__phrases p{
+        max-width: 90%;
+        text-align: justify;
+        font-size: 15px;
+        left: 10px;
+    }
+}
+
+@media screen and (width < 480px){
+    section.localization{
+        padding: 100px 0px;
+    }
+
+    /*introduction*/
+    .localization__title h1{
+        font-size: 20px;
+    }
+    
+    .localization__phrases p{
+        max-width: 75%;
+        font-size: 14px;
+    }
+    
+    .localization__button-whatsapp button{
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    /*maps*/
+    .localization__maps{
+        padding: 70px 0;
+    }
+
+    /*location and contact*/
+    .localization__location div.icon,.localization__contact div.icon{
+        width: 50px;
+        height: 50px;
+    }
+
+    .localization__location div.icon svg,.localization__contact div.icon svg{
+        font-size: 23px;
+        padding-top: 4px;
+    }
+
+    .localization__location div.content,.localization__contact div.content{
+        margin-left: 30px;
+    }
+
+    .localization__location div.content p,.localization__contact div.content p{
+        padding-top: 12px;
+    }
+
+    .localization__location{
+        padding-bottom: 50px;
+    }
+
+    .localization__contact{
+        padding-top: 50px;   
+    }
+}
+
+@media screen and (width < 386px){
+    section.localization{
+        padding: 100px 0px;
+    }
+
+    /*introduction*/
+    .localization__title h1{
+        font-size: 17px;
+    }
+    
+    .localization__phrases p{
+        max-width: 80%;
+        font-size: 12px;
+        line-height: 21px;
+    }
+    
+    .localization__button-whatsapp button{
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .localization__button-whatsapp button svg{
+        margin-left: 10px;
+    }
+
+    /*maps*/
+    .localization__maps{
+        padding: 60px 0;
+    }
+
+    .localization__maps iframe{
+        max-width: 95%;
+    }
+
+    /*location and contact*/
+    .localization__location div.icon svg,.localization__contact div.icon svg{
+        font-size: 21px;
+        padding-top: 5px;
+    }
+
+    .localization__location div.content,.localization__contact div.content{
+        margin-left: 15px;
+    }
+
+    .localization__location div.content p,.localization__contact div.content p{
+        padding-top: 8px;
+    }
+
+    .localization__location{
+        padding-bottom: 40px;
+    }
+
+    .localization__contact{
+        padding-top: 40px;   
+    } 
+}
+
+@media screen and (width < 334px){
+    section.localization{
+        padding: 80px 0px;
+    }
+
+    /*introduction*/
+    .localization__title h1{
+        font-size: 15px;
+        padding: 0 5px;
+    }
+    
+    .localization__phrases p{
+        max-width: 84%;
+        font-size: 11px;
+        line-height: 20px;
+        left: 6px;
+    }
+
+    .localization__button-whatsapp button{
+        left: 50%;
+    }
+
+    .localization__button-whatsapp button svg{
+        margin-left: 7px;
+    }
+
+    /*maps*/
+    .localization__maps{
+        padding: 50px 0;
+    }
+
+    .localization__maps iframe{
+        max-width: 97%;
+    }
+
+    /*location and contact*/
+    .localization__location div.icon,.localization__contact div.icon{
+        background-color: #e6e6e6;
+        color: rgba(0, 0, 0, 0.973);
+        padding: 10px;
+        border-radius: 10px;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+    }
+    
+    .localization__location div.icon svg,.localization__contact div.icon svg{
+        font-size: 20px;
+        padding-top: 1px;
+    }
+    
+    .localization__location div.content,.localization__contact div.content{
+        margin-left: 15px;
+    }
+
+    .localization__location div.content h1,.localization__contact div.content h1{
+        font-size: 15px;
+    }
+    
+    
+    .localization__location div.content p,.localization__contact div.content p{
+        font-size: 12px;
+        padding-top: 6px;
+    }
+    
+    .localization__location{
+        padding-bottom: 40px;
+    }
+
+    .localization__contact{
+        padding-top: 40px;   
+    }  
 }
