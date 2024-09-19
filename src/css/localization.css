@@ -33,6 +33,7 @@ section.localization{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
 }
 
 .localization__introduction{
