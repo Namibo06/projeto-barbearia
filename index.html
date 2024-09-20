@@ -26,10 +26,10 @@
     <!--scripts js-->
     <script src="/src/js/yearActual.js" defer></script>
     <script src="/src/js/menu.js" defer></script>
+    <script src="/src/js/linksBtn.js" defer></script>
 </head>
 <body>
-    <header>
-       
+    <header id="header">   
         <div class="header__container">
             <div class="header__top">
                 <div class="header__title">
@@ -44,7 +44,7 @@
                             </button>
                         </li>
                         <li>
-                            <button type="button">
+                            <button type="button" id="services-menu">
                                 Serviços
                             </button>
                         </li>
@@ -203,7 +203,7 @@
             </div><!--localization__location-and-contact-->
         </section><!--localization-->
 
-        <section class="services">
+        <section class="services" id="services">
             <div class="services__comments">
                 <div class="services__comments__title">
                     <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem sed distinctio, aperiam ipsam illo doloribus adipisci corporis, non explicabo perspiciatis est. Adipisci deleniti illum tempora? Voluptate harum aliquid quidem doloribus?"</p>
@@ -353,7 +353,7 @@
 
                     <ul>
                         <li><a href="">Localização</a></li>
-                        <li><a href="">Serviços</a></li>
+                        <li><button type="button" id="btn-services">Serviços</button></li>
                         <li><a href="">Funcionários</a></li>
                         <li><a href="">Sobre nós</a></li>
                     </ul>
@@ -363,9 +363,9 @@
                     <h2>Links Rápidos</h2>
 
                     <ul>
-                        <li><a href="">Subir ao topo</a></li>
-                        <li><a href="">Política de Privacidade</a></li>
-                        <li><a href="">Termos de Uso</a></li>
+                        <li><button type="button" id="btn-top">Subir ao topo</button></li>
+                        <li><a href="/src/pages/polity-of-privancy.html">Política de Privacidade</a></li>
+                        <li><a href="/src/pages/terms-of-use.html">Termos de Uso</a></li>
                     </ul>
                 </div><!--footer__links__others-->
 
