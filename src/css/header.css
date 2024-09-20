@@ -39,9 +39,6 @@ header{
     align-items: center;
     width: 600px;
     max-width: 98%;
-    height: 65px;
-    border: 2px solid #e6e2e2;
-    border-radius: 10px;
 }
 
 .header__top li{
@@ -61,10 +58,8 @@ header{
 }
 
 .header__top li button:hover{
-    border-radius: 10px;
-    background-color: #e6e2e2;
-    color: rgba(0, 0, 0, 0.829);
-    padding: 15px 30px;
+    padding-bottom: 2px;
+    border-bottom: 2px solid #f5f5f5;
 }
 
 .header__top li:last-child{
@@ -244,7 +239,6 @@ header{
     .header__top ul{
         width: 560px;
         max-width: 98%;
-        height: 63px;
     }
     
     .header__top .header__help-button button{
@@ -311,10 +305,6 @@ header{
         font-size: 15px;
     }
     
-    .header__top li button:hover{
-        padding: 12px 15px;
-    }
-    
     .header__top .header__help-button button{
         padding: 12px 15px;
         font-size: 16px;
@@ -352,10 +342,6 @@ header{
 @media screen and (width < 720px) {
     .header__links,.header__help-button{
         display: none;
-    }
-
-    .header__top ul{
-        border: 0;
     }
 
     /*menu bars*/
