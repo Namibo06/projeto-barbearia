@@ -121,3 +121,219 @@
     letter-spacing: 0.5px;
     cursor: pointer;
 }
+
+@media screen and (width < 1230px) {  
+    .employees__galery{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+        margin: 0 auto;
+        width: 100%;
+        padding-left: 8%;
+    }
+
+    .employees__galery__single img{
+        width: auto;
+        max-width: 250px;
+        height: 280px;
+    }
+
+    .employees__galery__about-us img{
+        margin-top: 50px;
+        position: relative;
+        left: 80%;
+    }
+
+    .employees__content{
+        position: relative;
+        bottom: 150px;
+        left: 130%;
+    }
+}
+
+@media screen and (width < 1020px) {  
+    .employees__galery{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+        margin: 0 auto;
+        width: 900px;
+        max-width: 98%;
+        padding-left: 15%;
+    }
+
+    .employees__galery__single:nth-of-type(3){
+        margin-top: 50px;
+    }
+
+    .employees__galery__about-us img{
+        position: relative;
+        left: 0%;
+        width: auto;
+        max-width: 250px;
+        height: 380px;
+    }
+
+    .employees__content{
+        position: relative;
+        bottom: 150px;
+        left: 32%;
+        width: 230px;
+    }
+
+    .employees__content h3{
+        padding-bottom: 10px;
+        font-size: 18px;
+    }
+    
+    .employees__content h4{
+       font-size: 15px;
+    }
+}
+
+@media screen and (width < 940px) {
+    .employees__title h1{
+        font-size: 40px;
+    }
+    
+    .employees__description{
+        width: 660px;
+        max-width: 98%;
+    }
+
+    .employees__content{
+        left: 34%;
+    } 
+}
+
+@media screen and (width < 881px) {
+    .employees{
+        padding: 80px 10px 60px 10px;
+    }
+
+    .employees__galery{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 98%;
+        padding-left: 0%;
+    }
+
+    .employees__galery__single{
+        margin-bottom: 50px; 
+    }
+
+    .employees__galery__single:nth-of-type(3){
+        margin-top: 0;
+    }
+
+    .employees__galery__about-us img{
+        margin-top: 0px;
+        width: 380px;
+        max-width: 380px;
+        height: 450px;
+    }
+
+    .employees__content{
+        position: relative;
+        bottom: 150px;
+        left: 38%;
+        width: 270px;
+    }
+}
+
+@media screen and (width < 750px) {
+    .employees__title h1{
+        font-size: 30px;
+    }
+    
+    .employees__description{
+        width: 480px;
+        max-width: 98%;
+        padding: 40px 0 100px 0;
+    }
+}
+
+@media screen and (width < 580px) {
+    .employees__title h1{
+        font-size: 25px;
+    }
+    
+    .employees__description{
+        width: 420px;
+        text-align: justify;
+        max-width: 98%;
+        padding: 20px 0 60px 0;
+    }
+}
+
+@media screen and (width < 480px) {
+    .employees__title h1{
+        font-size: 20px;
+    }
+    
+    .employees__description{
+        width: 330px;
+    }
+
+    .employees__galery__about-us img{
+        max-width: 99%;
+    }
+}
+
+@media screen and (width < 416px) {
+    .employees__content{
+        left: 42%;
+    }
+}
+
+@media screen and (width < 386px) {
+    .employees__title h1{
+        font-size: 17px;
+    }
+    
+    .employees__description{
+        width: 280px;
+        font-size: 13px;
+    }
+
+    .employees__content{
+        left: 46%;
+    }
+}
+
+@media screen and (width < 345px) {
+    .employees__title h1{
+        font-size: 15px;
+    }
+    
+    .employees__description{
+        width: 240px;
+        font-size: 11px;
+    }
+
+    .employees__content{
+        left: 50%;
+        width: 230px;
+    }
+
+    .employees__content h3{
+        font-size: 15px;
+    }
+
+    .employees__content h4{
+        font-size: 12px;
+        width: 121px;
+    }
+}
+
+@media screen and (width < 300px) {
+    .employees__title h1{
+        font-size: 13px;
+    }
+    
+    .employees__description{
+        width: 210px;
+        font-size: 10px;
+    }
+}
