@@ -6,6 +6,14 @@ document.addEventListener('DOMContentLoaded',()=>{
     const servicesMenu = document.getElementById('services-menu');
     const btnServices = document.getElementById('btn-services');
 
+    const localization = document.getElementById('localization');
+    const localizationMenu = document.getElementById('localization-menu');
+    const btnLocalization = document.getElementById('btn-localization');
+
+    const employees = document.getElementById('employees');
+    const employeesMenu = document.getElementById('employees-menu');
+    const btnEmployees = document.getElementById('btn-employees');
+
     btnTopSite.addEventListener('click',()=>{
         header.scrollIntoView({behavior:'smooth'});
     });
@@ -16,5 +24,21 @@ document.addEventListener('DOMContentLoaded',()=>{
 
     servicesMenu.addEventListener('click',()=>{
         services.scrollIntoView({behavior:'smooth'});
+    });
+
+    localizationMenu.addEventListener('click',()=>{
+        localization.scrollIntoView({behavior:'smooth'});
+    });
+
+    btnLocalization.addEventListener('click',()=>{
+        localization.scrollIntoView({behavior:'smooth'});
+    });
+
+    employeesMenu.addEventListener('click',()=>{
+        employees.scrollIntoView({behavior:'smooth'});
+    });
+
+    btnEmployees.addEventListener('click',()=>{
+        employees.scrollIntoView({behavior:'smooth'});
     });
 });
