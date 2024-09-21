@@ -2,6 +2,7 @@ footer{
     padding: 60px 60px 20px 40px;
     border-top: 3px solid #f0f0f0;
     box-shadow: 1px 1px 3px 2px #F3A85E;
+    font-family: "Roboto",Arial, Helvetica, sans-serif;
 }
 
 .footer__initial,.footer__links,.footer__final{
@@ -79,11 +80,20 @@ footer{
     color: #000000;
     text-decoration: none;
     transition: 0.2s ease-in;
+    font-size: 14px;
 }
 
-.footer__links div a:hover{
-    padding-bottom: 2px;
-    border-bottom: 2px solid #000000;
+.footer__links__menu ul li button,.footer__links__others ul li button{
+    font-size: 15px;
+    color: #000000;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+
+.footer__links div a:hover,.footer__links__menu ul li button:hover,.footer__links__others ul li button:hover{
+    color: #999;
 }
 
 .footer__socials svg{
@@ -125,6 +135,7 @@ footer{
 
     .footer__primary__description{
         padding-top: 20px;
+        font-size: 14px;
     }
 
     .footer__links{
