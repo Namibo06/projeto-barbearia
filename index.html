@@ -39,7 +39,7 @@
                 <div class="header__links">
                     <ul>
                         <li>
-                            <button type="button">
+                            <button type="button" id="localization-menu">
                                 Localização
                             </button>
                         </li>
@@ -49,7 +49,7 @@
                             </button>
                         </li>
                         <li>
-                            <button type="button">
+                            <button type="button" id="employees-menu">
                                 Funcionários
                             </button>
                         </li>
@@ -145,7 +145,7 @@
     </header>
 
     <main>
-        <section class="localization">
+        <section class="localization" id="localization">
             <div class="localization__introduction">
                 <div class="localization__title">
                     <h1>SERVIÇOS ALÉM DAS EXPECTATIVAS</h1>
@@ -262,7 +262,7 @@
             </div><!--services__prices-->
         </section><!--services-->
 
-        <section class="employees">
+        <section class="employees" id="employees">
             <div class="employees__title">
                 <h1>CONHEÇA NOSSOS ESPECIALISTAS</h1>
             </div><!--employees__title-->
@@ -352,10 +352,21 @@
                     <h2>Menu</h2>
 
                     <ul>
-                        <li><a href="">Localização</a></li>
-                        <li><button type="button" id="btn-services">Serviços</button></li>
-                        <li><a href="">Funcionários</a></li>
-                        <li><a href="">Sobre nós</a></li>
+                        <li>
+                            <button type="button" id="btn-localization">Localização</button>
+                        </li>
+
+                        <li>
+                            <button type="button" id="btn-services">Serviços</button>
+                        </li>
+                        
+                        <li>
+                            <button type="button" id="btn-employees">Funcionários</button>
+                        </li>
+                        
+                        <li>
+                            <a href="">Sobre nós</a>
+                        </li>
                     </ul>
                 </div><!--footer__links__menu-->
 
@@ -363,9 +374,17 @@
                     <h2>Links Rápidos</h2>
 
                     <ul>
-                        <li><button type="button" id="btn-top">Subir ao topo</button></li>
-                        <li><a href="/src/pages/polity-of-privancy.html">Política de Privacidade</a></li>
-                        <li><a href="/src/pages/terms-of-use.html">Termos de Uso</a></li>
+                        <li>
+                            <button type="button" id="btn-top">Subir ao topo</button>
+                        </li>
+                        
+                        <li>
+                            <a href="/src/pages/polity-of-privancy.html">Política de Privacidade</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/src/pages/terms-of-use.html">Termos de Uso</a>
+                        </li>
                     </ul>
                 </div><!--footer__links__others-->
 
