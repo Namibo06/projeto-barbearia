@@ -8,5 +8,3 @@
 ##### 1. Instale a extensão live server
 ##### 2. Clique com botão direito em cima do arquivo index.html
 ##### 3. Escolha a opção "Abrir com Live Server"
-
-//adicionar validações dos forms
