@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded',()=>{
 
         row1.style.backgroundColor="#000000dc";
         row1.style.width="36px";
-        commentTitle.textContent="Joca joca joca Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem sed distinctio, aperiam ipsam illo doloribus adipisci corporis, non explicabo perspiciatis est. Adipisci deleniti illum tempora? Voluptate harum aliquid quidem doloribus?";
+        commentTitle.textContent="Corto meu cabelo na BarbX desde a inauguração do estabelecimento e não me arrependo, já trouxe toda a família pra cortar aqui, e se puder espalho pra todos que conseguir, pois e uma experiência totalmente diferente e única, vão aproveitem.";
         commentName.textContent="Joca";
     }
 
