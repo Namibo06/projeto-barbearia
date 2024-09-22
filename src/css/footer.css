@@ -229,7 +229,7 @@ footer{
     }
 }
 
-@media screen and (width < 390px) {
+@media screen and (width < 409px) {
     .footer__primary__title h1{
         font-size: 25px;
     }
@@ -264,14 +264,20 @@ footer{
     }
 }
 
-@media screen and (width < 345px) {
+@media screen and (width < 362px) {
     .footer__copyright p{
         font-size: 11px;
     }
 }
 
-@media screen and (width < 298px) {
+@media screen and (width < 315px) {
     .footer__copyright p{
         font-size: 10px;
+    }
+}
+
+@media screen and (width < 292px) {
+    footer{
+        padding: 10px 10px 20px 10px;
     }
 }
