@@ -22,11 +22,6 @@ section.services{
     padding-top: 45px;
 }
 
-.services__comments__pagination div.row:first-child{
-    background-color: #000000dc;
-    width: 36px;
-}
-
 .services__comments__pagination div.row{
     height: 3px;
     width: 26px;
