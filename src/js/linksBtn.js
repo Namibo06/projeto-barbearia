@@ -14,6 +14,9 @@ document.addEventListener('DOMContentLoaded',()=>{
     const employeesMenu = document.getElementById('employees-menu');
     const btnEmployees = document.getElementById('btn-employees');
 
+    const forms = document.getElementById('forms');
+    const bookNow = document.getElementById("book-now");
+
     btnTopSite.addEventListener('click',()=>{
         header.scrollIntoView({behavior:'smooth'});
     });
@@ -40,5 +43,9 @@ document.addEventListener('DOMContentLoaded',()=>{
 
     btnEmployees.addEventListener('click',()=>{
         employees.scrollIntoView({behavior:'smooth'});
+    });
+
+    bookNow.addEventListener('click',()=>{
+        forms.scrollIntoView({behavior:'smooth'});
     });
 });
