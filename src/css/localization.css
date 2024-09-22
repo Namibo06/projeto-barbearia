@@ -247,14 +247,17 @@ section.localization{
         font-size: 40px;
         width: 100%;
         padding: 0 20px;
+        text-align: center;
     }
     
     .localization__phrases p{
-        width: 80%;
+        width: 75%;
         text-align: left;
         font-size: 16px;
         line-height: 23px;
         margin: 0 auto;
+        position: relative;
+        left: 20px;
     }
     
     .localization__button-whatsapp button{
