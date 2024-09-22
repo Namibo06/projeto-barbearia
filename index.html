@@ -29,6 +29,7 @@
     <script src="/src/js/menu.js" defer></script>
     <script src="/src/js/linksBtn.js" defer></script>
     <script src="/src/js/sendForms.js" defer></script>
+    <script src="/src/js/galeryComments.js" defer></script>
 </head>
 <body>
     <div class="callback" id="callback">
@@ -211,25 +212,25 @@
 
         <section class="services" id="services">
             <div class="services__comments">
-                <div class="services__comments__title">
-                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem sed distinctio, aperiam ipsam illo doloribus adipisci corporis, non explicabo perspiciatis est. Adipisci deleniti illum tempora? Voluptate harum aliquid quidem doloribus?"</p>
+                <div class="services__comments__title" id="comment-title">
+                    <p></p>
                 </div><!--services__comments__title-->
 
                 <div class="services__comments__pagination" id="pagination-row">
-                    <div class="row"></div>
-                    <div class="row"></div>
-                    <div class="row"></div>
+                    <div class="row" id="row1"></div>
+                    <div class="row" id="row2"></div>
+                    <div class="row" id="row3"></div>
                 </div><!--services__comments__pagination-->
 
                 <div class="services__content">
                     <div class="services__content__name">
-                        <p>Joca P. Maia</p>
+                        <p id="comment-name"></p>
                     </div><!--services__content__name-->
 
                     <div class="services__content__pagination" id="pagination-button">
-                        <button type="button"><i class="fa-solid fa-chevron-left"></i></button>
+                        <button type="button" id="button-left"><i class="fa-solid fa-chevron-left"></i></button>
                         
-                        <button type="button"><i class="fa-solid fa-chevron-right"></i></button>
+                        <button type="button"  id="button-right"><i class="fa-solid fa-chevron-right"></i></button>
                     </div><!--services__content__pagination-->
                 </div><!--services__content-->
             </div><!--services__comments-->
