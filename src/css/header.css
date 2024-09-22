@@ -118,11 +118,16 @@ header{
 }
 
 .close-menu button svg{
-    color: #000000;
+    color: #ff0000;
     position: absolute;
     top: 40px;
     right: 40px;
+    transition: 0.3s ease-in;
 }   
+
+.close-menu button svg:hover{
+    color: #ff0000be;
+}
 
 .header__menu > .menu ul{
     display: flex;
@@ -445,6 +450,12 @@ header{
     }
 }
 
+@media screen and (width < 580px)  {
+    #menu{
+        width: 93%;
+    }
+}
+
 @media screen and (width < 450px) {
     /*forms*/
     .header__form{
@@ -460,11 +471,23 @@ header{
         font-size: 17px;
     }
 
+    /*menu*/
+    #menu{
+        width: 91%;
+    }
+
     /*phrases*/
     .header__phrases__left p{
         margin: 0 auto;
         padding: 0 10px;
         width: 95%;
+    }
+}
+
+@media screen and (width < 340px) {
+    #menu{
+        width: 92%;
+        margin: 0 0 0 10px;
     }
 }
 
