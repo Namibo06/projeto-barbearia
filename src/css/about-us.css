@@ -15,7 +15,7 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 55px;
+    padding: 24px 55px;
 }
 
 .header__top h1{
