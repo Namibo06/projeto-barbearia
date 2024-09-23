@@ -52,7 +52,7 @@ body{
 
 /*main*/
 main{
-    padding: 40px;
+    padding: 70px 40px 100px 40px;
 }
 
 .main__title{
@@ -60,54 +60,9 @@ main{
 }
 
 .main__title h1{
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 400;
     letter-spacing: 1px;
-}
-
-.main__summary{
-    padding-bottom: 35px;
-    border: 1px solid #000000dc;
-    border-radius: 5px;
-    padding: 15px;
-    width: 320px;
-}
-
-.main__summary__title{
-    padding-bottom: 12px;
-}
-
-.main__summary__title > h2{
-    font-size: 24px;
-    font-weight: 400;
-    letter-spacing: 0.7px;
-}
-
-.main__summary ul{
-    display: flex;
-    flex-direction: column;
-}
-
-.main__summary li{
-    margin-bottom: 10px;
-    list-style-type: none;
-}
-
-.main__summary li:last-child{
-    margin-bottom: 0;
-}
-
-.main__summary button{
-    border: 0;
-    background-color: transparent;
-    font-size: 16px;
-    font-weight: 400;
-    cursor: pointer;
-    transition: 0.3s ease-in;
-}
-
-.main__summary button:hover{
-    color: #00000081;
 }
 
 /*section about*/
