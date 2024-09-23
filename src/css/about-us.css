@@ -94,11 +94,7 @@ main{
     text-align: justify;
 }
 
-@media screen and (width < 1020px) {
-    .header__top{
-        padding: 30px 20px;
-    }
-    
+@media screen and (width < 1020px) { 
     .header__top h1{
         font-size: 30px;
         letter-spacing: 0.9px;
@@ -111,12 +107,7 @@ main{
     }   
 }
 
-@media screen and (width < 860px) {
-    .header__top h1{
-        font-size: 25px;
-        letter-spacing: 1px;
-    }
-    
+@media screen and (width < 860px) {  
     .header__top .header__help-button button{
         padding: 12px 15px;
         font-size: 16px;
@@ -126,5 +117,20 @@ main{
 @media screen and (width < 720px) {
     .header__title h1{
         font-size: 30px;
+    }
+}
+
+@media screen and (width < 480px) {
+    .header__top{
+        padding: 30px 20px;
+    }
+
+    .header__top .header__help-button button{
+        width: 70px;
+        height: 40px;
+        font-size: 15px;
+        letter-spacing: 1px;
+        text-align: center;
+        padding: 0;
     }
 }
