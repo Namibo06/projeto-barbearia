@@ -55,6 +55,10 @@ section.localization{
     width: 400px;
 }
 
+.localization__button-whatsapp a{
+    text-decoration: none;
+}
+
 .localization__button-whatsapp button{
     padding: 14px 12px;
     border-radius: 5px;
