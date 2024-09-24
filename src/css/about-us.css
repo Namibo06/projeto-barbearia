@@ -58,7 +58,6 @@ main{
 }
 
 .main__title{
-    padding-bottom: 20px;
     text-align: center;
 }
 
@@ -102,8 +101,9 @@ main{
 }
 
 .about__single__content{
-    font-size: 17px;
-    line-height: 23px;
+    font-size: 23px;
+    line-height: 32px;
+    letter-spacing: 0.7px;
     text-align: justify;
 }
 
